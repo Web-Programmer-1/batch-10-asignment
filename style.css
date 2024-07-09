@@ -3,7 +3,10 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
+
+
 
 .main-banner{
     
@@ -13,10 +16,11 @@
     background-size: cover;
     object-fit: cover;
     width:1440px ;
-    height: 652px;
+    height: 800;
     margin: 50px auto;
-    filter: saturate(110%)
- 
+    filter: saturate(110%);
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.28);
+
 
 }
 
@@ -76,4 +80,240 @@
 .response:hover{
     background: linear-gradient(45deg, blue,green);
     transform: scale(1.1) translateZ(5px);
+}
+
+.web-info{
+    width: 1140px;
+    height: 1395px;
+    /* border: 2px solid red; */
+    margin: 170px auto;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.256);
+    border-radius: 15px;
+}
+
+.web-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.large{
+    font-family: "Azeret Mono", monospace;
+    line-height: 37px;
+    font-weight: 800;
+    font-size: 32px;
+    opacity: 140%;
+
+}
+.para{
+    line-height: 26px;
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 74%;
+    margin-top: 18px;
+    text-align: center;
+
+}
+
+.web-discription{
+    margin-left:60px ;
+    margin-top: 130px;
+
+}
+.big{
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Azeret Mono", monospace;
+    font-size: 24px;
+    opacity: 200%;
+
+    
+}
+.passage{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+    opacity: 0.7;
+
+    
+}
+
+.lern-more{
+    padding: 12px 25px;
+  
+    border-radius:2px ;
+    border: none;
+    color: black;
+    border: 2px solid black;
+    font-family: "Azeret Mono", monospace;
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 500;
+  ;
+
+    
+
+
+}
+
+.flex-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 140px;
+    margin-top: 90px;
+}
+
+.bold{
+    width: 390PX;
+    height: 72px;
+    font-family: "Azeret Mono", monospace;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 10px;
+    opacity: 0.7;
+
+
+}
+
+.flex-contant{
+    margin-left: 70px;
+}
+
+.des{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: "Azeret Mono", monospace;
+    margin-top: 26px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:38px ;
+}
+
+.one{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: "Azeret Mono", monospace;
+}
+
+.two{
+    font-family: "Azeret Mono", monospace;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 70%;
+    margin-top: 20px;
+    line-height: 27px;
+
+
+}
+
+.three{
+    font-family: "Azeret Mono", monospace;
+    padding: 13px 30px;
+   
+    border: 2px solid rgb(86, 42, 26);
+    margin-top: 17px;
+  
+
+}
+
+.pick1{
+    width: 300px;
+    height: 240px;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 90px;
+    margin-top: 70px;
+    width: 100%;
+
+}
+.primary{
+    width: 300px;
+    height: 300px;
+
+}
+
+.seven{
+    font-family: "Azeret Mono", monospace;
+    font-size:24px ;
+    font-weight: 700;
+    line-height: 36px;
+    opacity: 150%;
+
+
+
+}
+.eight{
+    font-family: "Azeret Mono", monospace;
+    font-size: 15px;
+    opacity: 65%;
+    margin-top: 15px;
+    font-weight: 300;
+
+
+
+}
+
+.nine{
+    padding: 12px 31px;
+    border: 2px solid black;
+    margin-top: 19px;
+    font-size: 18px;
+
+
+}
+
+.part1{
+    font-family: "Azeret Mono", monospace;
+
+font-size: 24;
+font-weight: 700;
+
+line-height: 25px;
+}
+
+.flex3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 56px auto;
+
+
+}
+.part2{
+   
+    font-size: 16px;
+    margin-top: 22px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 200;
+    opacity: 70%;
+
+}
+.part3{
+    padding: 15px 38px;
+    color: black;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 600;
+    margin-top: 24px;
+
+}
+.image5{
+    width: 400px;
+    height: 350px;
+    margin-right: 20px;
 }
