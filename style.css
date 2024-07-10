@@ -610,8 +610,162 @@ opacity: 70%;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 80%;
-    height: 600px;
+    width: 65%;
+    height: 216px;
     margin: 90px auto;
-    border: 2px solid;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.338);
+    border-radius: 20px;
+
+    margin-top: px;
+}
+.react-contant{
+    margin-right: 1px;
+    margin-left: 45px;
+
+}
+
+.rec1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+background: linear-gradient(to right, rgba(255, 0, 212, 0.73),rgb(6, 72, 255));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text ;
+
+}
+.rec2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.react-photo{
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+}
+
+.touch1{
+    padding: 7px 20px ;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Azeret Mono;
+    background: linear-gradient(45deg, rgb(255, 4, 213), rgb(120, 82, 255));
+    margin-top: 9px;
+
+}
+
+.node-section{
+    width: 65%;
+    height: 216px;
+    /* border: 2px solid red; */
+    margin: 21px auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.314);
+    border-radius: 10px;
+    
+}
+.node1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: linear-gradient(to right, rgba(255, 0, 212, 0.73),rgb(13, 49, 148));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text ;
+    
+}
+.node-contant{
+    margin-left: 34px;
+}
+.node2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+}
+.pop{
+    padding: 7px 20px ;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Azeret Mono;
+    background: linear-gradient(45deg, rgb(255, 4, 213), rgb(120, 82, 255));
+    margin-top: 9px;
+
+}
+.mongodb-section{
+    width: 65%;
+    border-radius:15px ;
+    height: 216px;
+    margin: 15px auto;
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.329);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.mon1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: linear-gradient(to right, rgba(255, 0, 212, 0.73),rgb(13, 49, 148));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text ;
+    
+
+}
+.mon2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    
+}
+.mon3{
+    padding: 7px 20px ;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Azeret Mono;
+    background: linear-gradient(45deg, rgb(255, 4, 213), rgb(120, 82, 255));
+    margin-top: 9px;
+}
+.mongo-contant{
+    margin-left: 45px;
+}
+.mongo{
+    width: 150px;
+    height: 160px;
 }
