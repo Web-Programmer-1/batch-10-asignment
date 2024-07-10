@@ -10,7 +10,7 @@
 
 .main-banner{
     
-    background-image: url("B10A1-Challenge-Begins/assets/Hero-bg.png") ;
+    background-image: url("./assets/Hero-bg.png") ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -565,4 +565,53 @@ opacity: 50%;
     border: none;
     border-radius: 5px;
     color: #fff;
+}
+
+.my-next{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.next1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+background: linear-gradient(to right, rgba(255, 0, 212, 0.73),rgb(38, 86, 219));
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text ;
+
+
+}
+.next2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 70%;
+
+}
+.tecno{
+    background: linear-gradient(to right, rgba(255, 0, 212, 0.73),rgb(38, 86, 219));
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text ;
+
+}
+
+/* technology-group */
+
+.technology-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 600px;
+    margin: 90px auto;
+    border: 2px solid;
 }
